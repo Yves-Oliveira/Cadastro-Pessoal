@@ -334,12 +334,12 @@
   top: 100px;
   left: 30px;
 }
-.formulario p {
+/*.formulario p {
   position: absolute;
   top: 300px;
   left: 30px;
   font-size: 1.4rem;
-}
+}*/
 .formulario_card_mulheres:hover {
   transform: scale(1.075);
   transition: 0.5s ease-in-out;
@@ -364,7 +364,8 @@
   border-radius: 70px;
   position: absolute;
   top: 440px;
-  left: 30px;
+  left: 25%;
+  right: 25%;
   cursor: pointer;
 }
 .formulario_button a {
@@ -434,6 +435,13 @@
     position: absolute;
     top: 300px;
   }
+  .footer_container {
+    align-items: center;
+    justify-self: center;
+  }
+  .footer_container p {
+    display: none;
+  }
   @media screen and (max-width: 480px) {
     .main_content {
       margin-top: 7rem;
@@ -471,6 +479,13 @@
       position: absolute;
       top: 300px;
     }
+    .footer_container {
+      align-items: center;
+      justify-self: center;
+    }
+    .footer_container p {
+      display: none;
+    }
   }
 }
 /*Footer*/
@@ -491,11 +506,9 @@
   padding-bottom: 25px;
   color: #fff;
 }
-.footer_content p{
+.footer_content p {
   font-size: 15px;
-  justify-content: space-around;
-  align-items: justify;
-
+  align-self: center;
 }
 #footer_logo {
   color: rgba(179, 167, 137, 1);
@@ -504,4 +517,3 @@
   text-decoration: none;
   font-size: 2rem;
 }
-
