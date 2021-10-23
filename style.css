@@ -101,7 +101,7 @@
     background: rgba(0, 46, 107, 1);
   }
   .navbar_menu.active {
-    background: #caa360;
+    background: #707070;
     top: 100%;
     opacity: 1;
     transition: all 0.5s ease;
@@ -246,6 +246,7 @@
   width: 100%;
   margin-bottom: 5rem;
   margin-left: 40px;
+  border-radius: 40px;
 }
 
 /* Formulário */
@@ -288,6 +289,26 @@
   justify-content: center;
   flex-wrap: wrap;
 }
+.formulario_luke {
+  margin: 1rem;
+  height: 525px;
+  width: 525px;
+  border-radius: 40px;
+  background-image: url("/imagens/luke.jpg");
+  background-size: cover;
+  position: relative;
+  color: rgb(6, 221, 6);
+}
+.formulario_leia {
+  margin: 1rem;
+  height: 525px;
+  width: 525px;
+  border-radius: 40px;
+  background-image: url("/imagens/leia.jpg");
+  background-size: cover;
+  position: relative;
+  color: #22c1c3;
+}
 .formulario_card_mulheres {
   margin: 1rem;
   height: 525px;
@@ -319,7 +340,12 @@
   left: 30px;
   font-size: 1.4rem;
 }
-.formulario_card:hover {
+.formulario_card_mulheres:hover {
+  transform: scale(1.075);
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+.formulario_card_homens:hover {
   transform: scale(1.075);
   transition: 0.5s ease-in-out;
   cursor: pointer;
@@ -449,4 +475,33 @@
 }
 /*Footer*/
 .footer_container {
+  background: rgba(0, 46, 107, 1);
+  font-size: 1.05rem;
+  color: #fff;
+  text-decoration: none;
 }
+.footer_content {
+  display: flex;
+  flex-direction: row;
+  grid-template-columns: auto;
+  justify-content: space-around;
+  align-items: justify;
+  text-align: justify;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  color: #fff;
+}
+.footer_content p{
+  font-size: 15px;
+  justify-content: space-around;
+  align-items: justify;
+
+}
+#footer_logo {
+  color: rgba(179, 167, 137, 1);
+  display: flex;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
