@@ -18,7 +18,7 @@ Criação de um site para cadastro pessoal como parte de um processo seletivo do
   - Os campos Nome, Cpf, Endereco, Numero, Telefone Celular são obrigatórios
   - Nome, Cpf, Rg, Sexo, Endereco, Numero, Bairro, Cidade, Estado, Cep, Telefone Fixo, Telefone Celular.
   - Explorar os recursos do Javascript (Ex. Abrir um alert ao submeter o formulário)
-  - 
+  
 # Fontes
   - https://www.w3schools.com/default.asp
   - https://developer.mozilla.org/pt-BR/docs/Learn/Forms/Your_first_form
