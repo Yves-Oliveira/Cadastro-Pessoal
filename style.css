@@ -197,6 +197,12 @@
   font-weight: 700;
   color: #fff;
 }
+.main_content_contact{
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  color: #fff;
+  text-align: justify;
+}
 .main_button {
   font-size: 1rem;
   background-image: linear-gradient(
@@ -417,6 +423,12 @@
     font-size: 1.5rem;
     margin-top: 1rem;
   }
+  .main_content_contact{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: justify;
+  }
   .main_img--container {
     display: none;
   }
@@ -445,7 +457,7 @@
   }
   @media screen and (max-width: 480px) {
     .main_content {
-      margin-top: 7rem;
+      margin-top: 4rem;
     }
     .main_content h1 {
       font-size: 2rem;
@@ -456,7 +468,13 @@
     }
     .main_content p {
       font-size: 1.5rem;
-      margin-top: 2.2rem;
+      margin-top: 0.2rem;
+    }
+    .main_content_contact{
+      margin-top: 2rem;
+      font-size: 1.5rem;
+      color: #fff;
+      text-align: justify;
     }
     .main_button {
       padding: 12px 36px;
