@@ -245,7 +245,8 @@
 }
 .main_img--container {
   align-items: center;
-  width: 80%;
+  width: 525px;
+  height: 625px;
 }
 #main_img {
   height: 100%;
@@ -389,12 +390,12 @@
 .formulario_button:hover:after {
   width: 100%;
 }
-.main_form form{
+.main_form form {
   display: grid;
   grid-template-columns: auto;
   align-items: center;
   justify-self: center;
-  width: 100%;
+  width: 80%;
   margin: 0 auto;
   color: #fff;
 }
@@ -433,7 +434,6 @@
   .main_img--container {
     display: none;
   }
-
   /*Form Media*/
   .formulario {
     height: 1300px;

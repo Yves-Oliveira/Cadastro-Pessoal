@@ -10,6 +10,7 @@
       src="https://kit.fontawesome.com/8d0a1c2843.js"
       crossorigin="anonymous"
     ></script>
+    <script src="site.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -45,17 +46,39 @@
       <div class="main_container">
         <div class="main_form">
           <h1>Formulário</h1>
-          <form>
-            <label for="name">Digite seu nome completo</label><br />
-            <input type="text" id="name" name="name" /><br />
-          </form>
-          <form>
-            <label for="CPF">Digite seu CPF</label><br />
-            <input type="number" id="cpf" name="cpf" /><br />
-          </form>
-          <form>
-            <label for="name">Digite seu nome completo</label><br />
-            <input type="text" id="name" name="name" /><br />
+          <form
+            name="myForm"
+            action="/home.html"
+            onsubmit="return validateForm()"
+            method="post"
+          >
+            <label>Digite seu Nome *</label>
+            <input type="text" name="fname" required/>
+            <label>Qual seu CPF? *</label>
+            <input type="number" name="fname" required/>
+            <label>Qual seu RG?</label>
+            <input type="number" name="rg"/>
+            <label>Qual seu Sexo?</label>
+            <input type="text" name="sex" value="Masculino" disabled/>
+            <label>Qual seu Endereço? *</label>
+            <input type="text" name="fname" required/>
+            <label>Qual o número da residência? *</label>
+            <input type="text" name="fname" required>
+            <label>Qual o seu bairro?</label>
+            <input type="text" name="home"/>
+            <label>E a Cidade?</label>
+            <input type="text" name="home"/>
+            <label>Em qual Estado?</label>
+            <input type="text" name="home"/>
+            <label>E o CEP?</label>
+            <input type="number" name="home"/>
+            <label>Possui telefone fixo?</label>
+            <input type="number" name="fixo"/>
+            <label>Qual seu Celular? *</label>
+            <input type="number" name="fname" required/>
+
+
+            <input type="submit" value="Submit" />
           </form>
         </div>
         <div class="main_img--container">
@@ -97,6 +120,5 @@
         </a>
       </div>
     </div>
-    <script src="site.js"></script>
   </body>
 </html>

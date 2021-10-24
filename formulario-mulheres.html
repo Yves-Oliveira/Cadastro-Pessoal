@@ -10,6 +10,7 @@
       src="https://kit.fontawesome.com/8d0a1c2843.js"
       crossorigin="anonymous"
     ></script>
+    <script src="site.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -43,8 +44,42 @@
     <div class="formulario">
       <h1>Formulário de Atração - Mulheres</h1>
       <div class="main_container">
-        <div class="main_content">
-          <h1>Blabla</h1>
+        <div class="main_form">
+          <h1>Formulário</h1>
+          <form
+            name="myForm"
+            action="/home.html"
+            onsubmit="return validateForm()"
+            method="post"
+          >
+            <label>Digite seu Nome *</label>
+            <input type="text" name="fname" required/>
+            <label>Qual seu CPF? *</label>
+            <input type="number" name="fname" required/>
+            <label>Qual seu RG?</label>
+            <input type="number" name="rg"/>
+            <label>Qual seu Sexo?</label>
+            <input type="text" name="sex" value="Feminino" disabled/>
+            <label>Qual seu Endereço? *</label>
+            <input type="text" name="fname" required/>
+            <label>Qual o número da residência? *</label>
+            <input type="text" name="fname" required>
+            <label>Qual o seu bairro?</label>
+            <input type="text" name="home"/>
+            <label>E a Cidade?</label>
+            <input type="text" name="home"/>
+            <label>Em qual Estado?</label>
+            <input type="text" name="home"/>
+            <label>E o CEP?</label>
+            <input type="number" name="home"/>
+            <label>Possui telefone fixo?</label>
+            <input type="number" name="fixo"/>
+            <label>Qual seu Celular? *</label>
+            <input type="number" name="fname" required/>
+
+
+            <input type="submit" value="Submit" />
+          </form>
         </div>
         <div class="main_img--container">
           <div class="formulario_leia"></div>
@@ -65,7 +100,7 @@
         <div class="main_img--container">
           <img
             src="/imagens/Businesswoman.svg"
-            alt="Na imagem temos uma Businesswoman segurando uma mala amarela. "
+            alt="Na imagem temos uma Businesswoman segurando sua bolsa."
             id="main_img"
           />
         </div>
@@ -78,11 +113,12 @@
           ><i class="fab fa-jedi-order"></i> ITAU FORM
         </a>
         <p>Projeto do Programa Itau Tech - 2021</p>
-        <a href="https://github.com/Yves-Oliveira/Cadastro-Pessoal" id="footer_logo"
+        <a
+          href="https://github.com/Yves-Oliveira/Cadastro-Pessoal"
+          id="footer_logo"
           ><i class="fa fa-github"></i>
         </a>
       </div>
     </div>
-    <script src="site.js"></script>
   </body>
 </html>
