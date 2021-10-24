@@ -418,8 +418,9 @@
     margin-top: 1rem;
   }
   .main_img--container {
-    margin-bottom: 3rem;
+    display: none;
   }
+
   /*Form Media*/
   .formulario {
     height: 1300px;
