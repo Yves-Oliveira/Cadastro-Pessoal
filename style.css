@@ -197,7 +197,7 @@
   font-weight: 700;
   color: #fff;
 }
-.main_content_contact{
+.main_content_contact {
   margin-top: 2rem;
   font-size: 1.5rem;
   color: #fff;
@@ -303,7 +303,6 @@
   background-image: url("/imagens/luke.jpg");
   background-size: cover;
   position: relative;
-  color: rgb(6, 221, 6);
 }
 .formulario_leia {
   margin: 1rem;
@@ -313,7 +312,6 @@
   background-image: url("/imagens/leia.jpg");
   background-size: cover;
   position: relative;
-  color: #22c1c3;
 }
 .formulario_card_mulheres {
   margin: 1rem;
@@ -340,12 +338,6 @@
   top: 100px;
   left: 30px;
 }
-/*.formulario p {
-  position: absolute;
-  top: 300px;
-  left: 30px;
-  font-size: 1.4rem;
-}*/
 .formulario_card_mulheres:hover {
   transform: scale(1.075);
   transition: 0.5s ease-in-out;
@@ -397,6 +389,15 @@
 .formulario_button:hover:after {
   width: 100%;
 }
+.main_form form{
+  display: grid;
+  grid-template-columns: auto;
+  align-items: center;
+  justify-self: center;
+  width: 100%;
+  margin: 0 auto;
+  color: #fff;
+}
 /* Mobile Responsive*/
 @media screen and (max-width: 960px) {
   .main_container {
@@ -423,7 +424,7 @@
     font-size: 1.5rem;
     margin-top: 1rem;
   }
-  .main_content_contact{
+  .main_content_contact {
     margin-top: 2rem;
     font-size: 1.5rem;
     color: #fff;
@@ -470,7 +471,7 @@
       font-size: 1.5rem;
       margin-top: 0.2rem;
     }
-    .main_content_contact{
+    .main_content_contact {
       margin-top: 2rem;
       font-size: 1.5rem;
       color: #fff;
